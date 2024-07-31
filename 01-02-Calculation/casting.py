@@ -1,8 +1,8 @@
 # Casting ... datatypes ... (.. Value ..)
 
-x = "3.75"
-y = "4.0"
+x = "300"
+y = "40"
 
-result = (float(x) + float(y)) 
+result = (int(x) + int(y)) 
 
-print(result)
+print("Result", result)
