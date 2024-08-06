@@ -3,7 +3,7 @@ os.system('cls')
 os.system('color 3')
 
 while True:
-
+ 
     choice = ["Penjumlahan", "Pengurangan", "Perkalian", "Pembagian", "Pangkat"]
 
     print("Selamat datang di kalkulator")
@@ -51,6 +51,7 @@ while True:
             print("Result :", int(result))
         else:
             print("Result :", result)
+        # operator % digunakan untuk menentukan apakah hasil pembagian antara dua bilangan apakah bilangan bulat atau tidak.
 
     if choise == "5":
         number1 = input("Masukan angka pertama : ")
@@ -66,3 +67,4 @@ while True:
     if ulang.lower() == 'n':
         print("Terimakasih telah menggunakan kalkulator")
         break
+    
