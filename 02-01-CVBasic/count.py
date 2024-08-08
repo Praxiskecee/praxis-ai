@@ -3,12 +3,14 @@ import imutils
 import cv2
 
 # load the input image (whose path was supplied via command line
-# argument) and display the image to our screen
-image = cv2.imread("Object.png")
+# argument) and display the image to our screen0
+image = cv2.imread("manusia.jpg")
+h,w,d= image.shape
+print(h,w)
 cv2.imshow("Image", image)
 cv2.waitKey(0)
 
-blurred = cv2.GaussianBlur(image, (25, 25), 0)
+blurred = cv2.GaussianBlur(image, (5, 5), 0)
 cv2.imshow("Blurred", blurred)
 cv2.waitKey(0)
 
